@@ -1,17 +1,5 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-import re
 import pyperclip
 import csv
-
-# firefoxpath = 'C:/Users/linji/AppData/Roaming/Mozilla/Firefox/Profiles/j5utn2tf.default-release'
-# options = webdriver.firefox.options.Options()
-# options.add_argument("--profile={}".format(firefoxpath))
-
-# driver = webdriver.Firefox(options=options)
-
-# baselink = 'https://www.linkedin.com/mynetwork/grow/'
-# driver.get(baselink)
 
 
 doc = pyperclip.paste()
